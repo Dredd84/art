@@ -39,6 +39,7 @@ crossorigin="anonymous">
     <h1>JONATHAN O'REILLY</h1>
     <h3>ARTIST</h3>
   </div>
+  <a href="#gallery"><button type="btn" class="cta">See More</button></a>
 </div>
 <!--Gallery-->
 <div id="gallery" class="container-fluid hero">
@@ -85,6 +86,7 @@ crossorigin="anonymous">
     <div class="row">
       <div class="col-md-6 left-col">
       <p><h3>Oh! Hello! I bet you're wondering, why the electric rodent on my head?
+        It's so bad guys can't see me running through the sunflowers.
         And that's a very good question that I will answer at a later time. But for now
         all you need to know is I draw pretty pictures and have years and years of
         experience doing so. So if you want your pictures to be pretty too,
@@ -122,20 +124,26 @@ crossorigin="anonymous">
 <!--Contact-->
 <div id="contact" class="container-fluid hero contact">
   <h2>CONTACT</h2>
-  <h3><em>Contact Jonathan today!</em></h3>
+  <h3><em>For covers and sequential art, illustrations and commissions,<br/>contact Jonathan today!</em></h3>
   <div class ="row-test">
     <div class ="col-md-4">
       <p><span class="glyphicon glyphicon-phone">Phone:</span></p>
       <p><span class="glyphicon glyphicon-envelope">Email:</span></p>
-      <p><span class=""</p>
+      <p><a href="http://www.twitter.com">
+        <img src="img/icons/twitter-black.svg"></a>Twitter
+      </p>
+      <p><a href="http://www.facebook.com">
+        <img src="img/icons/facebook-black.svg"></a><h11>facebook</h11>
+      </p>
     </div>
   <div class= "col-md-8">
+  <div class="form-wrap">
   <div class="row">
-    <div class="col-sm-6 form group">
+    <div class="col-sm-6 form-group">
       <input class="form-control" id ="name" name="name" placeholder ="Name"
       type ="text" required>
     </div>
-    <div class ="col-sm-6 form group">
+    <div class ="col-sm-6 form-group">
       <input class="form-control" id ="email" name ="email" placeholder="Email"
         type="email" required>
     </div>
@@ -144,11 +152,12 @@ crossorigin="anonymous">
     rows="5">
     </textarea>
       <div class="row">
-        <div class="col-md-12 form group">
-        <button class="btn pull-right" type="submit">Send</button>
+        <div class="col-md-12 form-group">
+        <button class="btn pull-right" type="submit" id="sendbutton">Send</button>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
 </div>
