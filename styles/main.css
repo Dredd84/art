@@ -35,17 +35,39 @@
   background: url("../img/jumbotron/art.jpg");
 
 }
-  .navbar {
-    margin-bottom: 0;
-    background-color: black;
-    font-size: 11px;
-    letter-spacing: 4px;
-    opacity: 0.9;
-  }
 
-  .navbar li a:hover {
-    color:#C6FF00 ;
-  }
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+
+}
+
+.nav-ul li {
+  float: left;
+}
+
+.nav-ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+
+}
+
+.nav-ul li a:hover {
+  background-color: #C6FF00;
+  opacity: 0.9;
+}
+
 
 .cta {
   background-color: black;
